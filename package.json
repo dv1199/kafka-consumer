@@ -1,0 +1,19 @@
+{
+  "name": "kafka-consumer",
+  "version": "1.0.0",
+  "description": "Simple app that implements a kafka consumer subscribed to a particular topic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
